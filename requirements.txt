@@ -1,0 +1,11 @@
+# Intel Mac (x86_64): pin torch 2.2.x — newer PyTorch drops macOS x86 wheels.
+# transformers 5.x requires torch>=2.4; numpy 2.x breaks torch 2.2 wheels.
+torch==2.2.2
+torchaudio==2.2.2
+transformers>=4.40.0,<5
+accelerate>=0.30.0
+soundfile>=0.12.0
+huggingface_hub>=0.23.0
+numpy>=1.26.0,<2
+# Optional — only for translate_srt.py (OpenAI Chat API, not run by default):
+# openai>=1.30.0
