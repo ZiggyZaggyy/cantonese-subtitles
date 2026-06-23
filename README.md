@@ -2,8 +2,6 @@
 
 Cantonese TV → SRT pipeline: Silero VAD, Whisper fine-tunes (`reachan/Cantonese-Whisper-Medium`, optional `awong-dev/whisper-large-v3-yue-lora-dec-enc4`), and optional SenseVoice-Small ONNX.
 
-Originally developed alongside [ZiggyZaggyy/sofa-salon](https://github.com/ZiggyZaggyy/sofa-salon); maintained as a standalone tool.
-
 ## Setup
 
 ```bash
